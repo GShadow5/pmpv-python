@@ -64,11 +64,20 @@ little more clunky\
 
 ### Dependencies
 This program uses python's built-in re module (regex), and there 
-are no external dependencies
+are no external dependencies. The test file uses unittest.
 
 ### Diagnostics
 The program sends error messages to stderr, so you can redirect 
 that away if you don't want those messages.
+
+There is a testing file inluded `test_pmpv.py` that can be run 
+with the command `python test_pmpv.py` that will run a sereices 
+of unit and integration tests. unittest was used as the testing 
+library  of choice. The selection of tests is not complete, but 
+was enought to verify that the program met the requirements of the 
+assignment. I plan to write a version of this program that handles 
+full PEMDAS, and I will make a more comprehensive set of tests 
+when I do.
 
 ### Bugs and limitations
 Typical behaviour is to ignore invalid inputs and send a warning 
