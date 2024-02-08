@@ -75,9 +75,7 @@ with the command `python test_pmpv.py` that will run a sereices
 of unit and integration tests. unittest was used as the testing 
 library  of choice. The selection of tests is not complete, but 
 was enought to verify that the program met the requirements of the 
-assignment. I plan to write a version of this program that handles 
-full PEMDAS, and I will make a more comprehensive set of tests 
-when I do.
+assignment.
 
 ### Bugs and limitations
 Typical behaviour is to ignore invalid inputs and send a warning 
